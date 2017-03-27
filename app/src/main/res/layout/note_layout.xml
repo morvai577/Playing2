@@ -17,4 +17,40 @@
         android:text="TextView"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:text="Why does the postponed analogue slide? The overwhelmed task sandwiches a sinful hammer. How will her magazine revise the fold cheat? The bought twist challenges the sound within a classical pain. The sophisticate suits an unworkable poetry throughout her dependence. Underneath the sufferer raves the recursive map."
+        app:layout_constraintLeft_toRightOf="@+id/textView"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/button3"
+        app:layout_constraintVertical_bias="0.512" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="93dp"
+        android:layout_height="53dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginRight="16dp"
+        android:text="Cancel"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="93dp"
+        android:layout_height="53dp"
+        android:layout_marginRight="16dp"
+        android:text="OK"
+        app:layout_constraintRight_toLeftOf="@+id/button2"
+        app:layout_constraintBaseline_toBaselineOf="@+id/button2" />
 </android.support.constraint.ConstraintLayout>
